@@ -1,1 +1,0 @@
-{"argv":["/nix/store/f4s5xszf6d87bm79w66nyqz7s4wv4wkr-ihaskell-0.10.3.0/bin/ihaskell","kernel","{connection_file}","--ghclib","/nix/store/scpaiqhx25l3wnkjznnvadk3bdivyapv-ghc-9.0.2/lib/ghc-9.0.2","+RTS","-M3g","-N2","-RTS","--stack"],"display_name":"Haskell","language":"haskell"}
