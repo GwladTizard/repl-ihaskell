@@ -1,1 +1,8 @@
-{ pkgs } : { deps = [ pkgs.haskellPackages.ihaskell pkgs.jupyter ]; }
+{ pkgs } : 
+ let ihaskell = pkgs.ihaskell.override { 
+   packages = (haskellPackages: [
+     haskellPackages.ihaskell-widgets
+   ]); 
+ }; in { 
+   deps = [ pkgs.ihaskell ]; 
+ }

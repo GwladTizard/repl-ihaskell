@@ -1,4 +1,4 @@
-run = "ihaskell install --stack && jupyter notebook"
+run = "ihaskell-notebook"
 
 hidden = [
   ".gitignore", 
@@ -8,7 +8,7 @@ hidden = [
 ]
 
 [nix]
-channel = "stable-22_11"
+channel = "unstable"
 
 entrypoint = "README.md"
 
